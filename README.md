@@ -43,4 +43,4 @@ YOLO V8
 5.  `jsonToYOlov8Txt.py` 을 실행하여 기존 json 라벨 데이터를 기반으로 Yolo v8 용 txt 라벨 데이터 생성
 6.  생성된 txt 라벨 데이터를 기존 json 라벨 데이터와 교체
 7.  고라니 데이터 중 A01_G22_C024_D_211118_2033_59S_000049.254라는 이름을 가진 이미지와 라벨에 문제가 있어 삭제
-8.  train, valid, test 모두 images와 labels에 동물별로 나눠져 있는 데이터를 모두 하나도 합침, **images와 labels 폴더내 동물 폴더 없음**
+8.  train, valid, test 모두 images와 labels에 동물별로 나눠져 있는 데이터를 모두 하나도 합침, **images와 labels 폴더내 동물별 폴더 없음**
