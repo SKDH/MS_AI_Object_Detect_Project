@@ -1,0 +1,8 @@
+train: ../wildLife_dataset/train/images/
+val: ../wildLife_dataset/valid/images/
+
+# Classes
+names:
+  0: water dear
+  1: wild boar
+  2: asian black bear
