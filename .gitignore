@@ -1,0 +1,5 @@
+txt_label/
+runs/
+wildLife_dataset/
+ultralytics-main/ultralytics/cfg/wildLife_dataset.zip
+ultralytics-main/ultralytics/cfg/wildLife_dataset/
