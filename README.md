@@ -45,8 +45,13 @@ YOLO V8<br>
 7.  고라니 데이터 중 A01_G22_C024_D_211118_2033_59S_000049.254라는 이름을 가진 이미지와 라벨에 문제가 있어 삭제
 8.  train, valid, test 모두 images와 labels에 동물별로 나눠져 있는 데이터를 모두 하나도 합침, **images와 labels 폴더내 동물별 폴더 없음**
 
-## 학습 데이터 셋 관련 파일 경로
+## 사용한 학습 데이터 셋 관련 저장한 경로
 
-데이터 셋 : ultralytics-main/ultralytics/cfg/wildLife_dataset<br>
-데이터 셋 yaml : ultralytics-main/ultralytics/cfg/datasets/wildLife.yaml<br>
-train 파일 : ultralytics-main/wildLife_animal_train.py<br>
+데이터 셋 **(git에 미업로드)** : `ultralytics-main/ultralytics/cfg/wildLife_dataset`<br>
+데이터 셋 classes yaml : `ultralytics-main/ultralytics/cfg/datasets/wildLife.yaml`<br>
+train 파일 : `ultralytics-main/wildLife_animal_train.py`<br>
+test 파일 : `ultralytics-main/wildLife_animal_test.py`<br>
+
+# 특이사항
+
+epoch 1 ~ 41 학습 결과 폴더는 ultralytics-main 상위 폴더에 epoch 42 ~ 학습 결과 폴더는 ultralytics-main 폴더 하위에 있음
