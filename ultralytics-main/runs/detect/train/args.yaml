@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: ..\runs\detect\train\weights\last.pt
+model: runs\detect\train\weights\last.pt
 data: C:\Users\labadmin\Desktop\MS_AI_Object_Detect_Project\ultralytics-main\ultralytics\cfg\datasets\wildLife.yaml
 epochs: 100
 patience: 50
